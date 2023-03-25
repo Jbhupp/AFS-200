@@ -8,7 +8,7 @@ message = int(input(f'Hello {name}, Apples cost ${applePrice:,.2f} each. How man
 
 #print(message)
 
-thanks = f"Thank you for your purchase of {message} apples at ${applePrice:,.2f} each. Your total today is ${(message * applePrice):,.2f}"
+thanks = f"Thank you {name} for your purchase of {message} apples at ${applePrice:,.2f} each. Your total today is ${(message * applePrice):,.2f}."
 
 print(thanks)
 
