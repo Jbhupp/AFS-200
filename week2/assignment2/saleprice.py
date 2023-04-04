@@ -25,4 +25,4 @@ tax = float(discountTotal * .065)
 
 finalTotal = float(discountTotal + tax)
 
-print(f"Your Receipt \n {quantity} {product}s at ${discountPrice:,.2f} \n Sales Tax ${tax:,.2f} \n Total amount due ${finalTotal:,.2f} \n You Saved ${savings:,.2f} Today.")
+print(f"Your Receipt \n {quantity} {product}s at ${discountPrice:,.2f} \n Sales Tax ${tax:,.2f} \n Total Amount Due ${finalTotal:,.2f} \n You saved ${savings:,.2f} today.")
