@@ -1,16 +1,16 @@
-userinput = input("Please enter a positive number: ")
+user_input = input("Please enter a positive number: ")
 
-#print(userinput)
+#print(user_input)
 
-def evenInputs(userinput):
-    if (int(userinput) % 2 == 0):
-        evenInputs = [evens for evens in range(int(userinput)+1) if evens %2 == 0]
-        print(evenInputs)
-    elif (int(userinput) % 2 != 0):
-        evenInputs = [evens for evens in range(int(userinput)+1) if evens %2 == 0]
-        print(evenInputs)
+def even_inputs(user_input):
+    if (int(user_input) % 2 == 0):
+        even_inputs = [evens for evens in range(int(user_input)+1) if evens %2 == 0]
+        print(even_inputs)
+    elif (int(user_input) % 2 != 0):
+        even_inputs = [evens for evens in range(int(user_input)+1) if evens %2 == 0]
+        print(even_inputs)
 
-while not (userinput.isdigit()):
-    userinput = input("Invalid input. Please enter a positive number: ")
+while not (user_input.isdigit()):
+    user_input = input("Invalid input. Please enter a positive number: ")
 
-evenInputs(userinput)
+even_inputs(user_input)
