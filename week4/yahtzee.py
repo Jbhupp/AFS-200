@@ -30,7 +30,7 @@ class Die():
 
 
 def check_for_yahtzee(array):
-    if(array[0].getCurrentFaceValue() == array[1].getCurrentFaceValue() == 
+    if(array[0].getCurrentFaceValue() == array[1].getCurrentFaceValue() ==
     array[2].getCurrentFaceValue() == array[3].getCurrentFaceValue() == array[4].getCurrentFaceValue()):
         return True
 
