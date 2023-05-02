@@ -55,7 +55,7 @@ ROOT_URLCONF = 'addressbook.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["/addressbook/templates"],
+        'DIRS': ["addressbook/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
