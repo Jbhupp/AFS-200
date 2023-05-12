@@ -44,4 +44,5 @@ class TriviaQuestion():
         retstr += self.correctAns
         retstr += " "
         retstr += str(self.incorrectAns)
+
         return retstr
